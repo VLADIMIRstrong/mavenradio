@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.082" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\IdeaProjects\mavenradio\target\test-classes;C:\IdeaProjects\mavenradio\target\classes;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Администратор\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Администратор\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Users\Администратор\.jdks\corretto-11.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\836D~1\AppData\Local\Temp\surefire7310333694814055700\surefirebooter18387820196693195347.jar C:\Users\Администратор\AppData\Local\Temp\surefire7310333694814055700 2023-02-23T09-47-24_116-jvmRun1 surefire11762010201651609263tmp surefire_010880209724529689847tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\IdeaProjects\mavenradio\target\test-classes;C:\IdeaProjects\mavenradio\target\classes;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Администратор\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Администратор\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Администратор\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Администратор"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\Администратор\.jdks\corretto-11.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\IdeaProjects\mavenradio"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\836D~1\AppData\Local\Temp\surefire7310333694814055700\surefirebooter18387820196693195347.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+8-LTS"/>
+    <property name="user.name" value="Администратор"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.17.8.1"/>
+    <property name="localRepository" value="C:\Users\Администратор\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\836D~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="C:\IdeaProjects\mavenradio"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\Администратор\.jdks\corretto-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Администратор\AppData\Local\Microsoft\WindowsApps;C:\Users\Администратор\AppData\Local\atom\bin;C:\Users\Администратор\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.17+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testLargeCurrentVolume" classname="RadioTest" time="0.037"/>
+  <testcase name="testMinusCurrentVolume" classname="RadioTest" time="0"/>
+  <testcase name="testZeroDecreaseVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testTenCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testZeroCurrentVolume" classname="RadioTest" time="0"/>
+  <testcase name="testTCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testWCurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testTenDecreaseVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testZCurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testOneCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testIncreaseVolume" classname="RadioTest" time="0"/>
+  <testcase name="testEdCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testMinusCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testOneDecreaseVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testLargeCurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testACurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testCurrentVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="test" classname="RadioTest" time="0"/>
+  <testcase name="testOneCurrentVolume" classname="RadioTest" time="0"/>
+  <testcase name="testNineCurrentVolume" classname="RadioTest" time="0"/>
+  <testcase name="testTenCurrentVolume" classname="RadioTest" time="0"/>
+  <testcase name="testFiveIncreaseVolume" classname="RadioTest" time="0"/>
+  <testcase name="testBCurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testECurrentStation" classname="RadioTest" time="0"/>
+  <testcase name="testNineIncreaseVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testElCurrentVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testZeroCurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testNineCurrentStation" classname="RadioTest" time="0.001"/>
+  <testcase name="testTenIncreaseVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="testFiveDecreaseVolume" classname="RadioTest" time="0"/>
+</testsuite>
